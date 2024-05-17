@@ -51,6 +51,11 @@
 		8BD696E32BF6DB8E0056BA3E /* AlmostHome */ = {
 			isa = PBXGroup;
 			children = (
+				8BD696F52BF6DBAC0056BA3E /* App */,
+				8BD696F42BF6DBA90056BA3E /* Core */,
+				8BD696F32BF6DBA50056BA3E /* Extensions */,
+				8BD696F22BF6DB9C0056BA3E /* Modules */,
+				8BD696F62BF6DBC50056BA3E /* Utils */,
 				8BD696E42BF6DB8E0056BA3E /* AlmostHomeApp.swift */,
 				8BD696E62BF6DB8E0056BA3E /* ContentView.swift */,
 				8BD696E82BF6DB8F0056BA3E /* Assets.xcassets */,
@@ -65,6 +70,49 @@
 				8BD696EB2BF6DB8F0056BA3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BD696F22BF6DB9C0056BA3E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8BD696F32BF6DBA50056BA3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8BD696F42BF6DBA90056BA3E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8BD696F72BF6DBF80056BA3E /* Explore */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8BD696F52BF6DBAC0056BA3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8BD696F62BF6DBC50056BA3E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8BD696F72BF6DBF80056BA3E /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
