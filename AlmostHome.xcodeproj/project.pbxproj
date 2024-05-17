@@ -54,7 +54,7 @@
 				8BD696F52BF6DBAC0056BA3E /* App */,
 				8BD696F42BF6DBA90056BA3E /* Core */,
 				8BD696F32BF6DBA50056BA3E /* Extensions */,
-				8BD696F22BF6DB9C0056BA3E /* Modules */,
+				8BD696F22BF6DB9C0056BA3E /* Models */,
 				8BD696F62BF6DBC50056BA3E /* Utils */,
 				8BD696E42BF6DB8E0056BA3E /* AlmostHomeApp.swift */,
 				8BD696E62BF6DB8E0056BA3E /* ContentView.swift */,
@@ -72,11 +72,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8BD696F22BF6DB9C0056BA3E /* Modules */ = {
+		8BD696F22BF6DB9C0056BA3E /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Modules;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		8BD696F32BF6DBA50056BA3E /* Extensions */ = {
@@ -90,6 +90,12 @@
 			isa = PBXGroup;
 			children = (
 				8BD696F72BF6DBF80056BA3E /* Explore */,
+				8BD696F82BF712C20056BA3E /* Listings */,
+				8BD696F92BF72A5A0056BA3E /* MapView */,
+				8BD696FA2BF72A630056BA3E /* Profile */,
+				8BD696FD2BF72ABB0056BA3E /* Root */,
+				8BD696FC2BF72AB00056BA3E /* TabBar */,
+				8BD696FB2BF72A6E0056BA3E /* WishLists */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -113,6 +119,48 @@
 			children = (
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		8BD696F82BF712C20056BA3E /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		8BD696F92BF72A5A0056BA3E /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		8BD696FA2BF72A630056BA3E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8BD696FB2BF72A6E0056BA3E /* WishLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WishLists;
+			sourceTree = "<group>";
+		};
+		8BD696FC2BF72AB00056BA3E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8BD696FD2BF72ABB0056BA3E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
