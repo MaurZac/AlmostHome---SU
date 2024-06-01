@@ -32,7 +32,7 @@ struct SearchAndFilterBar: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 10)
-        .overlay {
+        .overlay { 
             Capsule()
                 .stroke(lineWidth: 0.5)
                 .foregroundStyle(Color(.systemGray4))
