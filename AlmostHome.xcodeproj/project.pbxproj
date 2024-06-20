@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA4C1922C0C3A910099A6FA /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4C1912C0C3A910099A6FA /* DestinationSearchView.swift */; };
+		8BA4C19B2C156C2E0099A6FA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4C19A2C156C2E0099A6FA /* ProfileView.swift */; };
 		8BD696E52BF6DB8E0056BA3E /* AlmostHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD696E42BF6DB8E0056BA3E /* AlmostHomeApp.swift */; };
 		8BD696E72BF6DB8E0056BA3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD696E62BF6DB8E0056BA3E /* ContentView.swift */; };
 		8BD696E92BF6DB8F0056BA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD696E82BF6DB8F0056BA3E /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BA4C1912C0C3A910099A6FA /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		8BA4C19A2C156C2E0099A6FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8BD696E12BF6DB8E0056BA3E /* AlmostHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlmostHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD696E42BF6DB8E0056BA3E /* AlmostHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostHomeApp.swift; sourceTree = "<group>"; };
 		8BD696E62BF6DB8E0056BA3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 			children = (
 				8BD696FE2BF7CF7F0056BA3E /* ExploreView.swift */,
 				8BED88C32C03D76600E89909 /* SearchAndFilterBar.swift */,
+				8BA4C1912C0C3A910099A6FA /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 		8BD696FA2BF72A630056BA3E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8BA4C19A2C156C2E0099A6FA /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BED88CB2C03E2DC00E89909 /* ListingImageCarouselView.swift in Sources */,
+				8BA4C19B2C156C2E0099A6FA /* ProfileView.swift in Sources */,
+				8BA4C1922C0C3A910099A6FA /* DestinationSearchView.swift in Sources */,
 				8BD696E72BF6DB8E0056BA3E /* ContentView.swift in Sources */,
 				8BD697012BF7D01E0056BA3E /* ListingItemView.swift in Sources */,
 				8BD696FF2BF7CF7F0056BA3E /* ExploreView.swift in Sources */,
